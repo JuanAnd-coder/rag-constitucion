@@ -22,25 +22,23 @@ Sistema RAG (Retrieval-Augmented Generation) sencillo que responde preguntas en 
               (src/busqueda.py)                            (src/rag.py)        (src/llm.py)
 ```
 
-## Inicio rápido (un solo comando)
+## Inicio rápido
 
-**Requisitos:** Docker (con Docker Compose v2) y una API key gratuita de [Google AI Studio](https://aistudio.google.com).
+**Requisitos:** Docker Desktop (o Docker Engine con Compose v2) **abierto y en ejecución**, y una API key gratuita de [Google AI Studio](https://aistudio.google.com). La clave se crea en un par de minutos y no se incluye en el repositorio por seguridad.
 
-1. Crea tu archivo de variables de entorno y pon tu clave en `GEMINI_API_KEY`:
+```bash
+git clone https://github.com/JuanAnd-coder/rag-constitucion.git
+cd rag-constitucion
+cp .env.example .env          # Windows PowerShell: Copy-Item .env.example .env
+# Edita .env y pega tu clave en GEMINI_API_KEY
+docker compose run --rm --build app
+```
 
-   ```bash
-   cp .env.example .env          # Windows PowerShell: Copy-Item .env.example .env
-   ```
+El último es el único comando de despliegue: construye la imagen, levanta PostgreSQL con pgvector, procesa el PDF, genera los embeddings y los guarda (solo trabaja lo que falte), y abre una sesión interactiva de preguntas.
 
-2. Levanta todo y abre el chat:
+**Tiempos:** la primera vez tarda entre 5 y 10 minutos por los límites de la capa gratuita de la API. Mientras corre la ingesta la terminal no muestra texto; para ver el avance, abre otra terminal en la misma carpeta y ejecuta `docker compose logs -f ingesta`. Si se interrumpe, al volver a ejecutar continúa donde quedó. Las siguientes veces arranca en unos segundos: vuelve a leer el PDF pero no llama a la API, porque los vectores quedan guardados en el volumen `pgdata`.
 
-   ```bash
-   docker compose run --rm --build app
-   ```
-
-Ese único comando construye la imagen, levanta PostgreSQL con pgvector, procesa el PDF, genera los embeddings y guarda los vectores (solo trabaja lo que falte), y abre una sesión interactiva de preguntas. **La primera vez tarda entre 5 y 10 minutos** por los límites de la capa gratuita de la API (el progreso se muestra en pantalla y, si se interrumpe, se reanuda). Las siguientes veces arranca en unos segundos: vuelve a leer el PDF pero no llama a la API, porque los vectores quedan guardados en el volumen `pgdata`.
-
-Para salir del chat, presiona Enter con la pregunta vacía.
+**Salir y detener:** en el chat, presiona Enter con la pregunta vacía. La base de datos sigue corriendo en segundo plano; para detenerla usa `docker compose down` (conserva los datos).
 
 ## Uso
 
