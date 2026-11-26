@@ -1,0 +1,584 @@
+[
+  {
+    "id": "D1",
+    "tipo": "directa",
+    "esperados": [
+      "86"
+    ],
+    "pregunta": "¿Qué es la acción de tutela?",
+    "recuperados": [
+      {
+        "articulo": "86",
+        "distancia": 0.252,
+        "inicio": "Artículo 86. Toda persona tendrá acción de tutela para reclamar ante los jueces, en todo momento y lugar, mediante un procedimiento preferente y sumar"
+      },
+      {
+        "articulo": "282",
+        "distancia": 0.3501,
+        "inicio": "Artículo 282. El Defensor del Pueblo velará por la promoción, el ejercicio y la divulgación de los derechos humanos, para lo cual ejercerá las siguien"
+      },
+      {
+        "articulo": "241",
+        "distancia": 0.351,
+        "inicio": "Artículo 241. de procedimiento en su formación. 6. Decidir sobre las excusas de que trata el artículo 137 de la Constitución. 7. Decidir definitivamen"
+      },
+      {
+        "articulo": "242",
+        "distancia": 0.3553,
+        "inicio": "Artículo 242. Los procesos que se adelanten ante la Corte Constitucional en las materias a que se refiere este título, serán regulados por la ley conf"
+      },
+      {
+        "articulo": "87",
+        "distancia": 0.3572,
+        "inicio": "Artículo 87. Toda persona podrá acudir ante la autoridad judicial para hacer efectivo el cumplimiento de una ley o un acto administrativo. En caso de "
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "La acción de tutela es un mecanismo que tiene toda persona para reclamar ante los jueces, en todo momento y lugar, mediante un procedimiento preferente y sumario (ya sea por sí misma o por quien actúe a su nombre), la protección inmediata de sus derechos constitucionales fundamentales cuando estos resulten vulnerados o amenazados por la acción o la omisión de cualquier autoridad pública [Art. 86]. \n\nLa protección consiste en una orden para que quien sea solicitado actúe o se abstenga de hacerlo, y el fallo debe ser de inmediato cumplimiento [Art. 86]. \n\nEsta acción presenta las siguientes características según los fragmentos:\n* **Procedencia:** Solo procede cuando el afectado no disponga de otro medio de defensa judicial, salvo que se utilice como mecanismo transitorio para evitar un perjuicio irremediable [Art. 86]. También procede contra particulares encargados de la prestación de un servicio público, cuya conducta afecte grave y directamente el interés colectivo, o respecto de quienes el solicitante se halle en estado de subordinación o indefensión, en los casos que establezca la ley [Art. 86].\n* **Plazos:** En ningún caso pueden transcurrir más de diez días entre la solicitud de tutela y su resolución [Art. 86].\n* **Trámite posterior:** El fallo puede impugnarse ante el juez competente y, en todo caso, este lo remitirá a la Corte Constitucional para su eventual revisión [Art. 86, Art. 241].\n* **Legitimación:** Además de los interesados, el Defensor del Pueblo está facultado para interponer acciones de tutela [Art. 282]."
+  },
+  {
+    "id": "D2",
+    "tipo": "directa",
+    "esperados": [
+      "10"
+    ],
+    "pregunta": "¿Cuál es el idioma oficial de Colombia?",
+    "recuperados": [
+      {
+        "articulo": "10",
+        "distancia": 0.2977,
+        "inicio": "Artículo 10. El castellano es el idioma oficial de Colombia. Las lenguas y dialectos de los grupos étnicos son también oficiales en sus territorios. L"
+      },
+      {
+        "articulo": "7",
+        "distancia": 0.4065,
+        "inicio": "Artículo 7. El Estado reconoce y protege la diversidad étnica y cultural de la Nación colombiana."
+      },
+      {
+        "articulo": "96",
+        "distancia": 0.4072,
+        "inicio": "Artículo 96. Modificado por el Acto Legislativo 1 de 2002, artículo 1º Son nacionales colombianos. 1. Por nacimiento: a) Los naturales de Colombia, qu"
+      },
+      {
+        "articulo": "1",
+        "distancia": 0.4134,
+        "inicio": "Artículo 1. Colombia es un Estado Social de Derecho, organizado en forma de República unitaria, descentralizada, con autonomía de sus entidades territ"
+      },
+      {
+        "articulo": "9",
+        "distancia": 0.4154,
+        "inicio": "Artículo 9. Las relaciones exteriores del Estado se fundamentan en la soberanía nacional, en el respeto a la autodeterminación de los pueblos y en el "
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "El idioma oficial de Colombia es el castellano, y las lenguas y dialectos de los grupos étnicos también son oficiales en sus territorios [Art. 10]."
+  },
+  {
+    "id": "D3",
+    "tipo": "directa",
+    "esperados": [
+      "190"
+    ],
+    "pregunta": "¿Por cuántos años se elige al Presidente de la República?",
+    "recuperados": [
+      {
+        "articulo": "190",
+        "distancia": 0.2807,
+        "inicio": "Artículo 190. El Presidente de la República será elegido para un período de cuatro años, por la mitad más uno de los votos que, de manera secreta y di"
+      },
+      {
+        "articulo": "197",
+        "distancia": 0.2857,
+        "inicio": "Artículo 197. Modificado por el Acto Legislativo 2 de 2004. Artículo 2º. Nadie podrá ser elegido para ocupar la Presidencia de la República por más de"
+      },
+      {
+        "articulo": "191",
+        "distancia": 0.3321,
+        "inicio": "Artículo 191. Para ser Presidente de la República se requiere ser colombiano por nacimiento, ciudadano en ejercicio y mayor de treinta años."
+      },
+      {
+        "articulo": "196",
+        "distancia": 0.3429,
+        "inicio": "Artículo 196. El Presidente de la República, o quien haga sus veces, no podrá trasladarse a territorio extranjero durante el ejercicio de su cargo, si"
+      },
+      {
+        "articulo": "303",
+        "distancia": 0.3441,
+        "inicio": "Artículo 303. Modificado por el Acto Legislativo 2 de 2002. Artículo 1º. En cada uno de los departamentos habrá un Gobernador que será jefe de la admi"
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "El Presidente de la República es elegido para un período de cuatro años [Art. 190]."
+  },
+  {
+    "id": "D4",
+    "tipo": "directa",
+    "esperados": [
+      "11"
+    ],
+    "pregunta": "¿Existe la pena de muerte en Colombia?",
+    "recuperados": [
+      {
+        "articulo": "11",
+        "distancia": 0.3548,
+        "inicio": "Artículo 11. El derecho a la vida es inviolable. No habrá pena de muerte."
+      },
+      {
+        "articulo": "97",
+        "distancia": 0.3721,
+        "inicio": "Artículo 97. El colombiano, aunque haya renunciado a la calidad de nacional, que actúe contra los intereses del país en guerra exterior contra Colombi"
+      },
+      {
+        "articulo": "35",
+        "distancia": 0.3846,
+        "inicio": "Artículo 35. Modificado por el Acto Legislativo 1 de 1997, Artículo 1º La extradición se podrá solicitar, conceder u ofrecer de acuerdo con los tratad"
+      },
+      {
+        "articulo": "93",
+        "distancia": 0.3847,
+        "inicio": "Artículo 93. Los tratados y convenios internacionales ratificados por el Congreso, que reconocen los derechos humanos y que prohíben su limitación en "
+      },
+      {
+        "articulo": "2",
+        "distancia": 0.389,
+        "inicio": "Artículo 2. Son fines esenciales del Estado: servir a la comunidad, promover la prosperidad general y garantizar la efectividad de los principios, der"
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "No, la pena de muerte no existe en Colombia, ya que el derecho a la vida es inviolable y se establece expresamente que no habrá pena de muerte [Art. 11]."
+  },
+  {
+    "id": "C1",
+    "tipo": "combinada",
+    "esperados": [
+      "86",
+      "87"
+    ],
+    "pregunta": "¿Cuál es la diferencia entre la acción de tutela y la acción de cumplimiento?",
+    "recuperados": [
+      {
+        "articulo": "86",
+        "distancia": 0.3255,
+        "inicio": "Artículo 86. Toda persona tendrá acción de tutela para reclamar ante los jueces, en todo momento y lugar, mediante un procedimiento preferente y sumar"
+      },
+      {
+        "articulo": "87",
+        "distancia": 0.3601,
+        "inicio": "Artículo 87. Toda persona podrá acudir ante la autoridad judicial para hacer efectivo el cumplimiento de una ley o un acto administrativo. En caso de "
+      },
+      {
+        "articulo": "241",
+        "distancia": 0.3887,
+        "inicio": "Artículo 241. de procedimiento en su formación. 6. Decidir sobre las excusas de que trata el artículo 137 de la Constitución. 7. Decidir definitivamen"
+      },
+      {
+        "articulo": "282",
+        "distancia": 0.3953,
+        "inicio": "Artículo 282. El Defensor del Pueblo velará por la promoción, el ejercicio y la divulgación de los derechos humanos, para lo cual ejercerá las siguien"
+      },
+      {
+        "articulo": "89",
+        "distancia": 0.4049,
+        "inicio": "Artículo 89. Además de los consagrados en los artículos anteriores, la ley establecerá los demás recursos, las acciones, y los procedimientos necesari"
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "Con base en los fragmentos recuperados, las diferencias son las siguientes:\n\n* **Acción de tutela:** \n  * Su propósito es reclamar la protección inmediata de los **derechos constitucionales fundamentales** cuando estos resulten vulnerados o amenazados por la acción u omisión de cualquier autoridad pública (o particulares en casos específicos previstos por la ley) [Art. 86].\n  * La protección consiste en una orden para que quien corresponda actúe o se abstenga de hacerlo [Art. 86].\n  * Procede solo cuando el afectado no disponga de otro medio de defensa judicial, salvo que se utilice como mecanismo transitorio para evitar un perjuicio irremediable [Art. 86].\n\n* **Acción de cumplimiento:** \n  * Su propósito es permitir que toda persona acuda ante la autoridad judicial para hacer efectivo el **cumplimiento de una ley o un acto administrativo** [Art. 87].\n  * En caso de prosperar, la sentencia ordena a la autoridad renuente el cumplimiento del deber omitido [Art. 87]."
+  },
+  {
+    "id": "C2",
+    "tipo": "combinada",
+    "esperados": [
+      "44",
+      "45"
+    ],
+    "pregunta": "¿Qué derechos tienen los niños y los adolescentes y quién debe protegerlos?",
+    "recuperados": [
+      {
+        "articulo": "45",
+        "distancia": 0.2951,
+        "inicio": "Artículo 45. El adolescente tiene derecho a la protección y a la formación integral. El Estado y la sociedad garantizan la participación activa de los"
+      },
+      {
+        "articulo": "44",
+        "distancia": 0.3013,
+        "inicio": "Artículo 44. Son derechos fundamentales de los niños: la vida, la integridad física, la salud y la seguridad social, la alimentación equilibrada, su n"
+      },
+      {
+        "articulo": "13",
+        "distancia": 0.3534,
+        "inicio": "Artículo 13. Todas las personas nacen libres e iguales ante la ley, recibirán la misma protección y trato de las autoridades y gozarán de los mismos d"
+      },
+      {
+        "articulo": "42",
+        "distancia": 0.3611,
+        "inicio": "Artículo 42. La familia es el núcleo fundamental de la sociedad. Se constituye por vínculos naturales o jurídicos, por la decisión libre de un hombre "
+      },
+      {
+        "articulo": "89",
+        "distancia": 0.3725,
+        "inicio": "Artículo 89. Además de los consagrados en los artículos anteriores, la ley establecerá los demás recursos, las acciones, y los procedimientos necesari"
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "Con base en los fragmentos recuperados, los derechos y deberes de los niños y adolescentes, así como sus protectores, son los siguientes:\n\n*   **Derechos de los niños:** Son derechos fundamentales la vida, la integridad física, la salud y la seguridad social, la alimentación equilibrada, su nombre y nacionalidad, tener una familia y no ser separados de ella, el cuidado y amor, la educación y la cultura, la recreación y la libre expresión de su opinión [Art. 44]. Además, deben ser protegidos contra toda forma de abandono, violencia física o moral, secuestro, venta, abuso sexual, explotación laboral o económica y trabajos riesgosos, y gozan de los demás derechos consagrados en la Constitución, las leyes y los tratados internacionales ratificados por Colombia [Art. 44]. Sus derechos prevalecen sobre los derechos de los demás [Art. 44].\n*   **Derechos de los adolescentes:** Tienen derecho a la protección y a la formación integral [Art. 45]. Asimismo, el Estado y la sociedad deben garantizar la participación activa de los jóvenes en los organismos públicos y privados encargados de la protección, educación y progreso de la juventud [Art. 45].\n*   **Quiénes deben protegerlos:** \n    *   En el caso de los niños, la familia, la sociedad y el Estado tienen la obligación de asistir y protegerlos para garantizar su desarrollo armónico e integral y el ejercicio pleno de sus derechos [Art. 44]. Cualquier persona también puede exigir a la autoridad competente su cumplimiento y la sanción de los infractores [Art. 44].\n    *   En el caso de los adolescentes, el Estado y la sociedad garantizan su protección y formación integral, así como su participación activa [Art. 45]."
+  },
+  {
+    "id": "C3",
+    "tipo": "combinada",
+    "esperados": [
+      "172",
+      "177"
+    ],
+    "pregunta": "¿Qué edad mínima se exige para ser senador y cuál para ser representante a la Cámara?",
+    "recuperados": [
+      {
+        "articulo": "177",
+        "distancia": 0.2897,
+        "inicio": "Artículo 177. Para ser elegido representante se requiere ser ciudadano en ejercicio y tener más de veinticinco años de edad en la fecha de la elección"
+      },
+      {
+        "articulo": "172",
+        "distancia": 0.3246,
+        "inicio": "Artículo 172. Para ser elegido senador se requiere ser colombiano de nacimiento, ciudadano en ejercicio y tener más de treinta años de edad en la fech"
+      },
+      {
+        "articulo": "176",
+        "distancia": 0.3574,
+        "inicio": "Artículo 176. Modificado por el Acto Legislativo 2 de 2005. La Cámara de Representantes se elegirá en circunscripciones territoriales, circunscripcion"
+      },
+      {
+        "articulo": "171",
+        "distancia": 0.3728,
+        "inicio": "Artículo 171. El Senado de la República estará integrado por cien miembros elegidos en circunscripción nacional. Habrá un número adicional de dos sena"
+      },
+      {
+        "articulo": "132",
+        "distancia": 0.374,
+        "inicio": "Artículo 132. Los senadores y los representantes serán elegidos para un período de cuatro años, que se inicia el 20 de julio siguiente a la elección."
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "Para ser elegido senador se requiere tener más de treinta años de edad en la fecha de la elección [Art. 172]. Para ser elegido representante a la Cámara se requiere tener más de veinticinco años de edad en la fecha de la elección [Art. 177]."
+  },
+  {
+    "id": "S1",
+    "tipo": "sin_respuesta",
+    "esperados": [],
+    "pregunta": "¿Cuántos años de cárcel se imponen por el delito de hurto?",
+    "recuperados": [
+      {
+        "articulo": "34",
+        "distancia": 0.4211,
+        "inicio": "Artículo 34. Se prohíben las penas de destierro, prisión perpetua y confiscación. No obstante, por sentencia judicial, se declarará extinguido el domi"
+      },
+      {
+        "articulo": "28",
+        "distancia": 0.4219,
+        "inicio": "Artículo 28. Toda persona es libre. Nadie puede ser molestado en su persona o familia, ni reducido a prisión o arresto, ni detenido, ni su domicilio r"
+      },
+      {
+        "articulo": "134",
+        "distancia": 0.4451,
+        "inicio": "Artículo 134. al cual se le vinculare formalmente, por delitos relacionados con la pertenencia, promoción o financiación a/o por grupos armados ilegal"
+      },
+      {
+        "articulo": "48",
+        "distancia": 0.4474,
+        "inicio": "Artículo 48. Adicionado por Acto Legislativo 1 de 2005 artículo 1º. El régimen de transición establecido en la Ley 100 de 1993 y demás normas que desa"
+      },
+      {
+        "articulo": "30",
+        "distancia": 0.4479,
+        "inicio": "Artículo 30. Quien estuviere privado de su libertad, y creyere estarlo ilegalmente, tiene derecho a invocar ante cualquier autoridad judicial, en todo"
+      }
+    ],
+    "mejor_posicion": null,
+    "todos_esperados": false,
+    "se_abstuvo": true,
+    "respuesta": "El contexto recuperado no contiene la respuesta a esta pregunta."
+  },
+  {
+    "id": "S2",
+    "tipo": "sin_respuesta",
+    "esperados": [],
+    "pregunta": "¿Qué dice la Constitución sobre las criptomonedas?",
+    "recuperados": [
+      {
+        "articulo": "transitorio 49",
+        "distancia": 0.3402,
+        "inicio": "Artículo transitorio 49. En la primera legislatura posterior a la entrada en vigencia de esta Constitución, el Gobierno presentará al Congreso los pro"
+      },
+      {
+        "articulo": "335",
+        "distancia": 0.3504,
+        "inicio": "Artículo 335. Las actividades financiera, bursátil, aseguradora y cualquier otra relacionada con el manejo, aprovechamiento e inversión de los recurso"
+      },
+      {
+        "articulo": "362",
+        "distancia": 0.3623,
+        "inicio": "Artículo 362. Los bienes y rentas tributarias o no tributarias o provenientes de la explotación de monopolios de las entidades territoriales son de su"
+      },
+      {
+        "articulo": "transitorio 50",
+        "distancia": 0.3627,
+        "inicio": "Artículo transitorio 50. Mientras se dictan las normas generales a las cuales debe sujetarse el Gobierno para regular la actividad financiera, bursáti"
+      },
+      {
+        "articulo": "336",
+        "distancia": 0.3643,
+        "inicio": "Artículo 336. Ningún monopolio podrá establecerse sino como arbitrio rentístico, con una finalidad de interés público o social y en virtud de la ley. "
+      }
+    ],
+    "mejor_posicion": null,
+    "todos_esperados": false,
+    "se_abstuvo": true,
+    "respuesta": "El contexto recuperado no contiene la respuesta a esta pregunta."
+  },
+  {
+    "id": "S3",
+    "tipo": "sin_respuesta",
+    "esperados": [],
+    "pregunta": "¿Cuál es el valor del salario mínimo mensual en Colombia hoy?",
+    "recuperados": [
+      {
+        "articulo": "48",
+        "distancia": 0.4032,
+        "inicio": "Artículo 48. para apartarse de lo allí establecido. Inciso Adicionado por Acto Legislativo 1 de 2005 artículo 1º. Para la liquidación de las pensiones"
+      },
+      {
+        "articulo": "48",
+        "distancia": 0.4142,
+        "inicio": "Artículo 48. 2005 artículo 1º. La ley establecerá un procedimiento breve para la revisión de las pensiones reconocidas con abuso del derecho o sin el "
+      },
+      {
+        "articulo": "48",
+        "distancia": 0.4154,
+        "inicio": "Artículo 48. deben haberse cubierto las cotizaciones correspondientes. Parágrafo Transitorio 6. Adicionado por Acto Legislativo 1 de 2005 artículo 1º."
+      },
+      {
+        "articulo": "53",
+        "distancia": 0.4241,
+        "inicio": "Artículo 53. El Congreso expedirá el estatuto del trabajo. La ley correspondiente tendrá en cuenta por lo menos los siguientes principios mínimos fund"
+      },
+      {
+        "articulo": "357",
+        "distancia": 0.4377,
+        "inicio": "Artículo 357. Modificado por el Acto Legislativo 4 de 2007. Artículo 4º, el cual quedará así: El Sistema General de Participaciones de los Departament"
+      }
+    ],
+    "mejor_posicion": null,
+    "todos_esperados": false,
+    "se_abstuvo": true,
+    "respuesta": "El contexto recuperado no contiene la respuesta a esta pregunta."
+  },
+  {
+    "id": "S4",
+    "tipo": "sin_respuesta",
+    "esperados": [],
+    "pregunta": "¿Quién ganó el Mundial de fútbol de 2014?",
+    "recuperados": [
+      {
+        "articulo": "14",
+        "distancia": 0.5069,
+        "inicio": "Artículo 14. Toda persona tiene derecho al reconocimiento de su personalidad jurídica."
+      },
+      {
+        "articulo": "52",
+        "distancia": 0.5106,
+        "inicio": "Artículo 52. Modificado por el Acto Legislativo 2 de 2000, artículo 1º El ejercicio del deporte, sus manifestaciones recreativas, competitivas y autóc"
+      },
+      {
+        "articulo": "109",
+        "distancia": 0.5109,
+        "inicio": "Artículo 109. Modificado por el Acto Legislativo 1 de 2009, artículo 3º El Estado concurrirá a la financiación política y electoral de los Par tidos y"
+      },
+      {
+        "articulo": "380",
+        "distancia": 0.5115,
+        "inicio": "Artículo 380. Queda derogada la Constitución hasta ahora vigente con todas sus reformas. Esta Constitución rige a partir del día de su promulgación. D"
+      },
+      {
+        "articulo": "119",
+        "distancia": 0.5123,
+        "inicio": "Artículo 119. La Contraloría General de la República tiene a su cargo la vigilancia de la gestión fiscal y el control de resultado de la administració"
+      }
+    ],
+    "mejor_posicion": null,
+    "todos_esperados": false,
+    "se_abstuvo": true,
+    "respuesta": "El contexto recuperado no contiene la respuesta a esta pregunta."
+  },
+  {
+    "id": "H1",
+    "tipo": "directa",
+    "esperados": [
+      "197"
+    ],
+    "pregunta": "¿Puede el Presidente de la República ser reelegido?",
+    "recuperados": [
+      {
+        "articulo": "197",
+        "distancia": 0.268,
+        "inicio": "Artículo 197. Modificado por el Acto Legislativo 2 de 2004. Artículo 2º. Nadie podrá ser elegido para ocupar la Presidencia de la República por más de"
+      },
+      {
+        "articulo": "190",
+        "distancia": 0.2819,
+        "inicio": "Artículo 190. El Presidente de la República será elegido para un período de cuatro años, por la mitad más uno de los votos que, de manera secreta y di"
+      },
+      {
+        "articulo": "204",
+        "distancia": 0.3069,
+        "inicio": "Artículo 204. Modificado por el Acto Legislativo 2 de 2004. Artículo 3º. Para ser elegido Vicepresidente se requieren las mismas calidades que para se"
+      },
+      {
+        "articulo": "127",
+        "distancia": 0.3279,
+        "inicio": "Artículo 127. por el Acto Legislativo 2 de 2004 artículo 1°. Cuando el Presidente y el Vicepresidente de la República presenten sus candidaturas, solo"
+      },
+      {
+        "articulo": "196",
+        "distancia": 0.3376,
+        "inicio": "Artículo 196. El Presidente de la República, o quien haga sus veces, no podrá trasladarse a territorio extranjero durante el ejercicio de su cargo, si"
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "Según la Constitución, nadie podrá ser elegido para ocupar la Presidencia de la República por más de dos períodos [Art. 197]. Asimismo, quien ejerza o haya ejercido la Presidencia de la República antes de la vigencia del Acto Legislativo 2 de 2004 sólo podrá ser elegido para un nuevo período presidencial [Art. 197 Parágrafo Transitorio]."
+  },
+  {
+    "id": "H2",
+    "tipo": "combinada",
+    "esperados": [
+      "100"
+    ],
+    "pregunta": "¿Pueden votar los extranjeros residentes en Colombia?",
+    "recuperados": [
+      {
+        "articulo": "100",
+        "distancia": 0.2487,
+        "inicio": "Artículo 100. Los extranjeros disfrutarán en Colombia de los mismos derechos civiles que se conceden a los colombianos. No obstante, la ley podrá, por"
+      },
+      {
+        "articulo": "97",
+        "distancia": 0.3265,
+        "inicio": "Artículo 97. El colombiano, aunque haya renunciado a la calidad de nacional, que actúe contra los intereses del país en guerra exterior contra Colombi"
+      },
+      {
+        "articulo": "24",
+        "distancia": 0.3354,
+        "inicio": "Artículo 24. Todo colombiano, con las limitaciones que establezca la ley, tiene derecho a circular libremente por el territorio nacional, a entrar y s"
+      },
+      {
+        "articulo": "316",
+        "distancia": 0.3392,
+        "inicio": "Artículo 316. En las votaciones que se realicen para la elección de autoridades locales y para la decisión de asuntos del mismo carácter, solo podrán "
+      },
+      {
+        "articulo": "96",
+        "distancia": 0.3408,
+        "inicio": "Artículo 96. Modificado por el Acto Legislativo 1 de 2002, artículo 1º Son nacionales colombianos. 1. Por nacimiento: a) Los naturales de Colombia, qu"
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "Sí, los derechos políticos se reservan generalmente a los nacionales, pero la ley podrá conceder a los extranjeros residentes en Colombia el derecho al voto en las elecciones y consultas populares de carácter municipal o distrital [Art. 100]."
+  },
+  {
+    "id": "H3",
+    "tipo": "combinada",
+    "esperados": [
+      "174",
+      "175",
+      "199"
+    ],
+    "pregunta": "¿Qué pasa si el Presidente comete un delito durante su mandato?",
+    "recuperados": [
+      {
+        "articulo": "199",
+        "distancia": 0.2993,
+        "inicio": "Artículo 199. El Presidente de la República, durante el período para el que sea elegido, o quien se halle encargado de la Presidencia, no podrá ser pe"
+      },
+      {
+        "articulo": "198",
+        "distancia": 0.3215,
+        "inicio": "Artículo 198. El Presidente de la República, o quien haga sus veces, será responsable de sus actos u omisiones que violen la Constitución o las leyes."
+      },
+      {
+        "articulo": "194",
+        "distancia": 0.3394,
+        "inicio": "Artículo 194. Son faltas absolutas del Presidente de la República su muerte, su renuncia aceptada, la destitución decretada por sentencia, la incapaci"
+      },
+      {
+        "articulo": "196",
+        "distancia": 0.3513,
+        "inicio": "Artículo 196. El Presidente de la República, o quien haga sus veces, no podrá trasladarse a territorio extranjero durante el ejercicio de su cargo, si"
+      },
+      {
+        "articulo": "197",
+        "distancia": 0.3515,
+        "inicio": "Artículo 197. Modificado por el Acto Legislativo 2 de 2004. Artículo 2º. Nadie podrá ser elegido para ocupar la Presidencia de la República por más de"
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": false,
+    "se_abstuvo": false,
+    "respuesta": "Durante su período o mientras se halle encargado de la Presidencia, el Presidente de la República no podrá ser perseguido ni juzgado por delitos, a menos que exista una acusación por parte de la Cámara de Representantes y que el Senado haya declarado que hay lugar a formación de causa [Art. 199]. Asimismo, el Presidente es responsable de sus actos u omisiones que violen la Constitución o las leyes [Art. 198]."
+  },
+  {
+    "id": "H4",
+    "tipo": "directa",
+    "esperados": [
+      "13"
+    ],
+    "pregunta": "¿Qué dice el artículo 13 de la Constitución?",
+    "recuperados": [
+      {
+        "articulo": "13",
+        "distancia": 0.2483,
+        "inicio": "Artículo 13. Todas las personas nacen libres e iguales ante la ley, recibirán la misma protección y trato de las autoridades y gozarán de los mismos d"
+      },
+      {
+        "articulo": "transitorio 13",
+        "distancia": 0.2754,
+        "inicio": "Artículo transitorio 13. Dentro de los tres años siguientes a la entrada en vigencia de esta Constitución, el Gobierno podrá dictar las disposiciones "
+      },
+      {
+        "articulo": "377",
+        "distancia": 0.2987,
+        "inicio": "Artículo 377. Deberán someterse a referendo las reformas constitucionales aprobadas por el Congreso, cuando se refieran a los derechos reconocidos en "
+      },
+      {
+        "articulo": "380",
+        "distancia": 0.2994,
+        "inicio": "Artículo 380. Queda derogada la Constitución hasta ahora vigente con todas sus reformas. Esta Constitución rige a partir del día de su promulgación. D"
+      },
+      {
+        "articulo": "374",
+        "distancia": 0.3137,
+        "inicio": "Artículo 374. La Constitución Política podrá ser reformada por el Congreso, por una Asamblea Constituyente o por el pueblo mediante referendo."
+      }
+    ],
+    "mejor_posicion": 1,
+    "todos_esperados": true,
+    "se_abstuvo": false,
+    "respuesta": "El artículo 13 establece que todas las personas nacen libres e iguales ante la ley, y que recibirán la misma protección y trato de las autoridades, gozando de los mismos derechos, libertades y oportunidades sin discriminación por razones de sexo, raza, origen nacional o familiar, lengua, religión, opinión política o filosófica. \n\nAdemás, señala que el Estado promoverá las condiciones para que la igualdad sea real y efectiva, adoptará medidas a favor de grupos discriminados o marginados, protegerá de manera especial a quienes se encuentren en circunstancia de debilidad manifiesta por su condición económica, física o mental, y sancionará los abusos o maltratos cometidos contra ellas [Art. 13]."
+  }
+]

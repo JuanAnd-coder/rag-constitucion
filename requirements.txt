@@ -1,0 +1,7 @@
+pypdf==7.1.1
+fonttools
+psycopg[binary]==3.3.9
+pgvector==0.5.1
+numpy==2.5.5
+google-genai==3.6.1
+python-dotenv==1.2.4
