@@ -2,8 +2,8 @@
 
 Sistema RAG (Retrieval-Augmented Generation) sencillo que responde preguntas en lenguaje natural sobre la Constitución Política de Colombia y **cita los artículos** de donde obtiene la respuesta. Si los fragmentos recuperados no contienen la respuesta, lo dice explícitamente en vez de inventar.
 
-- **Integrantes:** Juan Andres Cardenas- Adrian Reyes- Brayan Camilo Riascos
-- **Asignatura / docente:** Inteligencia Artificial-Nicolas Narvaez
+- **Integrantes:** Juan Andres Cardenas, Adrian Reyes, Brayan Camilo Riascos
+- **Asignatura / docente:** Inteligencia Artificial - Nicolas Narvaez
 
 **Stack:** PostgreSQL 16 + [pgvector](https://github.com/pgvector/pgvector) · embeddings `gemini-embedding-001` (768 dimensiones) · modelo generativo de la API gratuita de Gemini · Python 3.12 · Docker Compose.
 
@@ -107,7 +107,7 @@ Resumen de la v2 (preguntas con respuesta, n = 11): el artículo esperado quedó
 
 ## Limitaciones conocidas
 
-- La edición del PDF actualizada con los actos legislativos hasta 2010, no incluye las reformas constitucionales posteriores.
+- La edición del PDF incluye los actos legislativos hasta 2010 y no incluye las reformas constitucionales posteriores.
 - El texto incluye notas editoriales ("Modificado por el Acto Legislativo…") que quedan dentro de los fragmentos.
 - Los artículos muy largos se parten por número de caracteres, y un fragmento puede empezar a mitad de un numeral. Una mejora posible es cortar en los límites de numerales.
 - El top-k se cuenta en fragmentos, no en artículos distintos: varios fragmentos del mismo artículo pueden ocupar el top-5.
@@ -159,4 +159,4 @@ python -m src.rag
 - **Error 404 del modelo:** el modelo de `GEMINI_MODEL` no está disponible para tu clave. Ejecuta `docker compose run --rm app python -m src.probar_modelos` y cambia el valor en `.env`.
 - **Errores 429 o 503:** son límites o picos de demanda de la capa gratuita. Los scripts reintentan solos; si persisten, espera unos minutos y vuelve a ejecutar (la ingesta continúa donde quedó).
 - **`service "ingesta" didn't complete successfully`:** mira el motivo con `docker compose logs ingesta`.
-- **Puerto 5432 ocupado:** cambia `"5432:5432"` por `"5433:5432"` en `docker-compose.yml` (la aplicación dentro de Docker no se ve afectada).
+- **Puerto 5432 ocupado** (por ejemplo, si ya tienes PostgreSQL instalado): agrega `POSTGRES_PORT=5433` a tu `.env`. Solo cambia el puerto visible desde tu máquina; la aplicación dentro de Docker no se ve afectada.
