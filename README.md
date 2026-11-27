@@ -26,6 +26,8 @@ Sistema RAG (Retrieval-Augmented Generation) sencillo que responde preguntas en 
 
 **Requisitos:** Docker Desktop (o Docker Engine con Compose v2) **abierto y en ejecución**, y una API key gratuita de [Google AI Studio](https://aistudio.google.com). La clave se crea en un par de minutos y no se incluye en el repositorio por seguridad.
 
+> **Nota sobre el despliegue en un solo comando:** Los primeros pasos (`git clone`, `cd`, `cp` y editar `.env`) son únicamente de preparación inicial para clonar el repositorio y configurar tu propia `GEMINI_API_KEY` sin exponer credenciales en GitHub. Una vez configurado `.env`, **todo el sistema se levanta y ejecuta con un único comando**: `docker compose run --rm --build app`, el cual construye la imagen, inicia PostgreSQL con `pgvector`, ejecuta la ingesta del documento (si aún no está cargada) y abre directamente el entorno interactivo de consultas.
+
 ```bash
 git clone https://github.com/JuanAnd-coder/rag-constitucion.git
 cd rag-constitucion
