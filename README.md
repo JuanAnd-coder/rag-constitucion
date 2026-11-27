@@ -36,7 +36,7 @@ docker compose run --rm --build app
 
 El último es el único comando de despliegue: construye la imagen, levanta PostgreSQL con pgvector, procesa el PDF, genera los embeddings y los guarda (solo trabaja lo que falte), y abre una sesión interactiva de preguntas.
 
-**Tiempos:** la primera vez tarda entre 5 y 10 minutos por los límites de la capa gratuita de la API. Mientras corre la ingesta la terminal no muestra texto; para ver el avance, abre otra terminal en la misma carpeta y ejecuta `docker compose logs -f ingesta`. Si se interrumpe, al volver a ejecutar continúa donde quedó. Las siguientes veces arranca en unos segundos: vuelve a leer el PDF pero no llama a la API, porque los vectores quedan guardados en el volumen `pgdata`.
+**Tiempos:** la primera vez tarda unos 10 minutos por los límites de la capa gratuita de la API. Mientras corre la ingesta la terminal no muestra texto; para ver el avance, abre otra terminal en la misma carpeta y ejecuta `docker compose logs -f ingesta`. Si se interrumpe, al volver a ejecutar continúa donde quedó. Las siguientes veces arranca en unos segundos: vuelve a leer el PDF pero no llama a la API, porque los vectores quedan guardados en el volumen `pgdata`.
 
 **Salir y detener:** en el chat, presiona Enter con la pregunta vacía. La base de datos sigue corriendo en segundo plano; para detenerla usa `docker compose down` (conserva los datos).
 
@@ -85,7 +85,7 @@ docker compose down -v      # borra los contenedores Y los datos guardados
 | Fragmentos recuperados (k) | 5 | ≈2000 tokens de contexto: alcanza para preguntas que combinan varios artículos sin llenar el prompt de ruido. |
 | Prompt | Instrucciones de sistema + fragmentos numerados + pregunta; temperatura 0,2 | Reglas explícitas: responder solo con los fragmentos, citar `[Art. N]`, permitir comparar o sintetizar fragmentos, y abstenerse con una frase fija cuando no hay información útil. |
 | Abstención | Decidida por el modelo, no por un umbral de distancia | En la evaluación, las distancias de preguntas con respuesta (0,25–0,36) y sin respuesta (0,34–0,51) se traslapan, así que un umbral fijo no separa bien los casos. |
-| Límites de la API | Lotes de 10 fragmentos, pausa de 3 s entre lotes, reintentos con espera creciente (10 s, 20 s, 40 s…) ante errores 429/500/503 | Respeta la capa gratuita. La ingesta es reanudable: solo procesa fragmentos nuevos o cambiados y borra los obsoletos. |
+| Límites de la API | Lotes de 10 fragmentos, pausa de 8 s entre lotes, reintentos con espera creciente (10 s, 20 s, 40 s…) ante errores 429/500/503 y cortes de conexión | Respeta la capa gratuita. La ingesta es reanudable: solo procesa fragmentos nuevos o cambiados y borra los obsoletos. |
 | Secretos | La clave está en `.env` (no se sube a Git); `.env.example` es la plantilla | Requisito de seguridad. |
 
 ## Evaluación
@@ -155,6 +155,6 @@ python -m src.rag
 
 - **`API key not valid`:** revisa `GEMINI_API_KEY` en `.env` (sin comillas ni espacios) y que no haya una variable de entorno del sistema con el mismo nombre.
 - **Error 404 del modelo:** el modelo de `GEMINI_MODEL` no está disponible para tu clave. Ejecuta `docker compose run --rm app python -m src.probar_modelos` y cambia el valor en `.env`.
-- **Errores 429 o 503:** son límites o picos de demanda de la capa gratuita. Los scripts reintentan solos; si persisten, espera unos minutos y vuelve a ejecutar (la ingesta continúa donde quedó).
+- **Errores 429 o 503:** son límites o picos de demanda de la capa gratuita. Los scripts reintentan solos. Si la ingesta se detiene con un mensaje de límite agotado, vuelve a ejecutar el comando: continúa donde quedó. Los límites diarios se reinician a la medianoche (hora del Pacífico) y se aplican por proyecto de Google, no por clave; puedes ver tu consumo en [AI Studio](https://aistudio.google.com/rate-limit).
 - **`service "ingesta" didn't complete successfully`:** mira el motivo con `docker compose logs ingesta`.
 - **Puerto 5432 ocupado** (por ejemplo, si ya tienes PostgreSQL instalado): agrega `POSTGRES_PORT=5433` a tu `.env`. Solo cambia el puerto visible desde tu máquina; la aplicación dentro de Docker no se ve afectada.

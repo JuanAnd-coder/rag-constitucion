@@ -18,7 +18,7 @@ import src.config as config
 from src.embeddings import crear_cliente, embeber
  
 BATCH = 10   # fragmentos por llamada a la API (procesar por lotes)
-PAUSA = 3    # segundos de espera entre lotes para respetar los límites de la capa gratuita
+PAUSA = 8    # segundos de espera entre lotes para respetar los límites de la capa gratuita
  
  
 def texto_para_embedding(chunk):
