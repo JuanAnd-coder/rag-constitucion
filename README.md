@@ -30,7 +30,7 @@ Sistema RAG (Retrieval-Augmented Generation) sencillo que responde preguntas en 
 git clone https://github.com/JuanAnd-coder/rag-constitucion.git
 cd rag-constitucion
 cp .env.example .env          # Windows PowerShell: Copy-Item .env.example .env
-# Edita .env y pega tu clave en GEMINI_API_KEY
+notepad .env # Edita .env y pega tu clave en GEMINI_API_KEY
 docker compose run --rm --build app
 ```
 
