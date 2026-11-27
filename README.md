@@ -36,7 +36,6 @@ notepad .env # Edita .env y pega tu clave en GEMINI_API_KEY
 docker compose run --rm --build app #comando que levanta y ejecuta el sistema.
 ```
 
-El último es el único comando de despliegue: construye la imagen, levanta PostgreSQL con pgvector, procesa el PDF, genera los embeddings y los guarda (solo trabaja lo que falte), y abre una sesión interactiva de preguntas.
 
 **Tiempos:** la primera vez tarda unos 10 minutos por los límites de la capa gratuita de la API. Mientras corre la ingesta la terminal no muestra texto; para ver el avance, abre otra terminal en la misma carpeta y ejecuta `docker compose logs -f ingesta`. Si se interrumpe, al volver a ejecutar continúa donde quedó. Las siguientes veces arranca en unos segundos: vuelve a leer el PDF pero no llama a la API, porque los vectores quedan guardados en el volumen `pgdata`.
 
