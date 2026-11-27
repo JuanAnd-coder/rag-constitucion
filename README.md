@@ -31,7 +31,7 @@ git clone https://github.com/JuanAnd-coder/rag-constitucion.git
 cd rag-constitucion
 cp .env.example .env          # Windows PowerShell: Copy-Item .env.example .env
 notepad .env # Edita .env y pega tu clave en GEMINI_API_KEY
-docker compose run --rm --build app
+docker compose run --rm --build app #comando que levanta y ejecuta el sistema.
 ```
 
 El último es el único comando de despliegue: construye la imagen, levanta PostgreSQL con pgvector, procesa el PDF, genera los embeddings y los guarda (solo trabaja lo que falte), y abre una sesión interactiva de preguntas.
